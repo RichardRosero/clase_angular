@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { LoadingComponent } from './componets/loading/loading.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
