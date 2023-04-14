@@ -1,2 +1,8 @@
 <p>inicio works!</p>
 <h1>{{nombre + ' ' + apellido}}</h1>
+<app-loading [visible]="loadinginvisible"></app-loading> <!--igualamos la variable visible creada en loading con loadinginvisible de inicio-->
+                                                        <!--recordemos que se mantiene en invisible ya que a ""visible" le estamos 
+                                                            pasando el valor de loading que tenia false-->
+<button (click)="visualizarloading()">click loading</button> <!--ahora para mostrar creamos un boton y que juto cuando se de click se llame
+                                                                a la funcion visualizarloading que contiene a loadinginvisible
+                                                                pero aqui como sabemos le pusimos true, de esa forma se visualizara-->
