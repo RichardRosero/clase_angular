@@ -7,6 +7,8 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { LoadingComponent } from './componets/loading/loading.component';
 import { ButtonModule } from 'primeng/button';
 import { PaginaTablaComponent } from './pages/pagina-tabla/pagina-tabla.component';
+import { HttpClientModule } from '@angular/common/http';
+import {TableModule} from 'primeng/table';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { PaginaTablaComponent } from './pages/pagina-tabla/pagina-tabla.componen
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ButtonModule
+    ButtonModule,
+    HttpClientModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
